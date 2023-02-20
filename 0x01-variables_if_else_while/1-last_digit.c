@@ -5,8 +5,8 @@
 /* betty style doc for function main goes there */
 /**
  * main - assign a random number to the variable n each time it is executed.
- *  Complete the source code in order to print the
- *   last digit of the number stored in the variable n.
+ * Complete the source code in order to print the
+ * last digit of the number stored in the variable n.
  *
  *   Return: the string last digit
  */
@@ -22,7 +22,7 @@ int main(void)
 	if (m > 5)
 		printf("Last digit of %d is %d and is greater than 5", n, m);
 	else if (m == 0)
-		printf("Last digit of %d id %d and is 0", n, m);
+		printf("Last digit of %d is %d and is 0", n, m);
 	else if (m < 6 && m != 0)
 		printf("Last digit of %d is %d and is less than 6 and not 0", n, m);
 	printf("\n");
