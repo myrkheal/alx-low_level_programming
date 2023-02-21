@@ -2,9 +2,9 @@
 
 /**
  * main - prints all single digit numbers of base 10 starting from 0,
- * followed by a new line.
+ * followed by a new line
  *
- * return: 0 - 10
+ * Return: 0 - 10
  */
 
 int main(void)
