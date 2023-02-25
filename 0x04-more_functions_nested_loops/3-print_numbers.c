@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * ptint_numbers - function that prins the numbers, 0 to 9
+ * print_numbers - function that prins the numbers, 0 to 9
  *
  * Return: 0-9 followed by a new line
  */
