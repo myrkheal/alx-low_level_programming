@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
  * main - print the number from 1 to 100
- * 3 multiples print fizz instead of the number
- * 5 print buzz instead of number
- * 3 & 5 print fizzbuzz
+ * 3 multiples print Fizz instead of the number
+ * 5 print Buzz instead of number
+ * 3 & 5 print FizzBuzz
  * Return: always 0
  */
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 	int i;
 	char f[] = "Fizz";
 	char b[] = "Buzz";
-	char fb[] = "Fizz buzz";
+	char fb[] = "FizzBuzz";
 
 	for (i = 1 ; i <= 100 ; i++)
 	{
