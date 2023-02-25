@@ -8,16 +8,17 @@
  * Return: always 0
  */
 int main(void)
+
 {
 	int i;
 	char f[] = "Fizz";
-	char b[] = "buzz";
-	char fb[] = "fizz buzz";
+	char b[] = "Buzz";
+	char fb[] = "Fizz buzz";
 
 	for (i = 1 ; i <= 100 ; i++)
 	{
 		if (i == 100)
-			printf("%s ", b);
+			printf("%s", b);
 		else if ((i % 3 == 0) && (i % 5 == 0))
 			printf("%s ", fb);
 		else if (i % 3 == 0)
